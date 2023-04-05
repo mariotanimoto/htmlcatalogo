@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+html{
+    scroll-behavior:smooth;
+}
+body{
+    background-color: rgb(255, 244, 250);
+    text-align: center;
+    margin: 25px;
+}
+h1{
+    font-size: 100px;    
+    font-family: 'Poppins', sans-serif;
+    color:rgb(213, 35, 76);
+} 
+ul{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(36, 0, 61);
+    position:inherit;
+    text-align:left; 
+    margin: 20px;
+}
+a:link{
+    color:rgb(36, 0, 61);
+    text-decoration: none;
+}
+a:visited{
+    color:rgb(132, 0, 110);
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(17, 159, 195);
+    text-decoration: none;
+}
+#banner{
+
+    background: linear-gradient(90deg,transparent,rgb(36, 0, 61)),url("/img/banner.jpg");
+    height: 400px;
+    background-size:cover;
+    background-position: center;
+    padding: 50px;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+#isaac{
+    background: linear-gradient(270deg,transparent,rgb(43, 19, 7)),url("/img/isaac.webp");
+    height: 300px;
+    background-size:cover;
+    background-position: left;
+    padding: 50px;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+#spire{
+
+    background: linear-gradient(90deg,transparent,rgb(0, 28, 31)),url("/img/slaythespire.jpg");
+    height: 300px;
+    background-size:cover;
+    background-position: center;
+    padding: 50px;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+#hades{
+    background: linear-gradient(270deg,transparent,rgb(0, 108, 75)),url("/img/hades.jpg");
+    height: 300px;
+    background-size:cover;
+    background-position: left;
+    padding: 50px;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+#eden{
+
+    background: linear-gradient(90deg,transparent,rgb(73, 156, 189)),url("/img/eden.jpg");
+    height: 300px;
+    background-size:cover;
+    background-position: center;
+    padding: 50px;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+#banner div.bannertext{
+    color: white;
+    size: inherit;
+    width: 50%;
+    text-align: right;
+    position: relative;
+    left: 600px;
+    
+    
+
+}
+#isaac div.bannertext{
+    color: white;
+    size: inherit;
+    width: 50%;
+    text-align: left;  
+}
+#spire div.bannertext{
+    color: white;
+    size: inherit;
+    width: 50%;
+    text-align: right;
+    position: relative;
+    left: 600px;
+}
+#hades div.bannertext{
+    color: white;
+    size: inherit;
+    width: 50%;
+    text-align: left;  
+}
+#eden div.bannertext{
+    color: white;
+    size: inherit;
+    width: 50%;
+    text-align: right;
+    position: relative;
+    left: 600px;
+}
+h2.bannertext{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: inherit;
+    position:inherit;
+    text-align: inherit;
+}
+h3.bannertext{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: inherit;
+    position:inherit;
+    text-align: inherit;  
+}
+h3.normal_isaac{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(43, 19, 7);
+    position:inherit;
+    text-align:left; 
+    margin: 20px;
+}
+h3.normal_spire{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(0, 28, 31);
+    position:inherit;
+    text-align:left; 
+    margin: 20px;
+}
+h3.normal_hades{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(0, 108, 75);
+    position:inherit;
+    text-align:left; 
+    margin: 20px;
+}
+h3.normal_eden{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(73, 156, 189);
+    position:inherit;
+    text-align:left; 
+    margin: 20px;
+}
+div.return{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(36, 0, 61);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    text-align:left; 
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    text-decoration: none;
+}
+i{
+    color: inherit;
+}
+
+/*text{
+    width:inherit;
+    border-radius: 10px;
+    background-color: rgba(21, 6, 29, 0.685);
+    /*background-color: black;
+}*/
